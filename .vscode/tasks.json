@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build pbrain-alphabeta",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-o", "pbrain-alphabeta", "search.cpp","historytable.cpp","evaluation.cpp","board.cpp","skelet/pisqpipe.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
